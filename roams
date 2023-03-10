@@ -992,7 +992,7 @@ function library:Init(key)
     containerEdge.Name = "containerEdge"
     containerEdge.Parent = background
     containerEdge.AnchorPoint = Vector2.new(0.5, 0.5)
-    containerEdge.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    containerEdge.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     containerEdge.Position = UDim2.new(0.637000024, 0, 0.536000013, 0)
     containerEdge.Size = UDim2.new(0, 414, 0, 360)
 
