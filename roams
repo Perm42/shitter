@@ -198,7 +198,7 @@ function library:Watermark(text)
     end
 
     tetx = text or "xsx v2"
-
+-- menu
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
     local watermarkLayout = Instance.new("UIListLayout")
@@ -234,7 +234,7 @@ function library:Watermark(text)
     edge.Name = "edge"
     edge.Parent = watermark
     edge.AnchorPoint = Vector2.new(0.5, 0.5)
-    edge.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+    edge.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     edge.Position = UDim2.new(0.5, 0, -0.03, 0)
     edge.Size = UDim2.new(0, 0, 0, 26)
     edge.BackgroundTransparency = 1
