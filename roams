@@ -952,7 +952,7 @@ function library:Init(key)
     tabButtonsEdge.Name = "tabButtonsEdge"
     tabButtonsEdge.Parent = background
     tabButtonsEdge.AnchorPoint = Vector2.new(0.5, 0.5)
-    tabButtonsEdge.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    tabButtonsEdge.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     tabButtonsEdge.Position = UDim2.new(0.1435, 0, 0.536000013, 0)
     tabButtonsEdge.Size = UDim2.new(0, 152, 0, 360)
 
@@ -1209,7 +1209,7 @@ function library:Init(key)
 
             button.Name = "button"
             button.Parent = buttonFrame
-            button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             button.Size = UDim2.new(0, 396, 0, 24)
             button.AutoButtonColor = false
             button.Font = Enum.Font.SourceSans
@@ -1255,7 +1255,7 @@ function library:Init(key)
                 TweenService:Create(button, TweenTable["hover"], {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
             end)
             button.MouseLeave:Connect(function()
-                TweenService:Create(button, TweenTable["hover"], {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}):Play()
+                TweenService:Create(button, TweenTable["hover"], {BackgroundColor3 = Color3.fromRGB(0, 0, 0)}):Play()
             end)
 
             button.MouseButton1Down:Connect(function()
@@ -1361,7 +1361,7 @@ function library:Init(key)
                         TweenService:Create(button, TweenTable["hover"], {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
                     end)
                     button.MouseLeave:Connect(function()
-                        TweenService:Create(button, TweenTable["hover"], {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}):Play()
+                        TweenService:Create(button, TweenTable["hover"], {BackgroundColor3 = Color3.fromRGB(0, 0, 0)}):Play()
                     end)
         
                     button.MouseButton1Down:Connect(function()
@@ -1587,7 +1587,7 @@ function library:Init(key)
 
             toggleEdge.Name = "toggleEdge"
             toggleEdge.Parent = toggleButton
-            toggleEdge.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            toggleEdge.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             toggleEdge.Size = UDim2.new(0, 18, 0, 18)
 
             toggleEdgeCorner.CornerRadius = UDim.new(0, 2)
@@ -1748,7 +1748,7 @@ function library:Init(key)
 
                 keybind.Name = "keybind"
                 keybind.Parent = Extras
-                keybind.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+                keybind.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                 keybind.Position = UDim2.new(0.780303001, 0, 0, 0)
                 keybind.Size = UDim2.new(0, 87, 0, 22)
                 keybind.AutoButtonColor = false
@@ -1974,7 +1974,7 @@ function library:Init(key)
 
             keybind.Name = "keybind"
             keybind.Parent = keybindFolder
-            keybind.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            keybind.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             keybind.Position = UDim2.new(0.780303001, 0, 0, 0)
             keybind.Size = UDim2.new(0, 87, 0, 22)
             keybind.AutoButtonColor = false
