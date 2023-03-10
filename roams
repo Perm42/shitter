@@ -3305,7 +3305,7 @@ function library:Init(key)
             sliderLabel.Size = UDim2.new(0, 396, 0, 24)
             sliderLabel.Font = Enum.Font.Code
             sliderLabel.Text = text
-            sliderLabel.TextColor3 = Color3.fromRGB(190, 190, 190)
+            sliderLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             sliderLabel.TextSize = 14.000
             sliderLabel.TextWrapped = true
             sliderLabel.TextXAlignment = Enum.TextXAlignment.Left
